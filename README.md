@@ -25,7 +25,7 @@ Ensure you have your target PyTorch backend installed (CUDA, MPS, or CPU), then 
 ```bash
 pip install -r requirements.txt
 ```
-*(Just drop `FastKMeansClassifier.py` into your repository!)*
+*(Just drop `fast_kmeans_classifier.py` into your repository!)*
 
 ## 🛠 Initialization Arguments
 
