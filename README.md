@@ -35,7 +35,7 @@ pip install -r requirements.txt
 | `k_list` | `List/Dict` | `None` | Custom prototypes per class. E.g. `{0: 5, 1: 10}` or `[5, 10]`. Overrides `k_init`. |
 | `init_method` | `str` | `'kmeans++'`| Initialization algorithm: `'kmeans++'` or `'random'`. |
 | `distance` | `str` | `'cosine'` | Metric to evaluate vectors: `'cosine'` or `'euclidean'`. |
-| `dtype` | `str` | `'float16'` | Internal computational precision (`'float16'`, `'float32'`, etc.) |
+| `dtype` | `str` | `'float32'` | Internal computational precision (`'float16'`, `'float32'`, etc.) |
 | `soft` | `bool` | `True` | Use soft probabilities (True) or Hard K-Means boundaries (False). |
 | `soft_type` | `str` | `'linear'` | Probabilistic projection: `'linear'` (ReLU) or `'softmax'`. |
 | `temperature` | `float`| `1.0` | Scaling denominator if `soft_type='softmax'`. |
