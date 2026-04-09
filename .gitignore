@@ -2,3 +2,5 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .DS_Store
+fast_kmeans_regressor.py
+reg_test.ipynb
